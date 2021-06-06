@@ -1,0 +1,61 @@
+<html lang="english">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="cookie.png">
+        <script src="scripts.js"></script>
+        <title>CookieClicker | Jaesa</title>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <div class="link">Cookie Clicker, <a href="#" onclick="test()">Jaesa</a>, 2021</div>
+            </nav>
+            <section class="top">
+
+            </section>
+            <section class="left">
+                <header>
+                    <h1 id="header">0 Cookies</h1>
+                    <h3 id="cookiesSec">0 Cookies a second</h3>
+                </header>
+                <div class="cookie">
+                    <a onclick="cookieClick()" id="cookie"><img src="cookie.png" alt="gamer"></a>
+                </div>
+            </section>
+            <div class="dividerL1"></div>
+            <div class="dividerL2"></div>
+
+            <section class="middle">
+                <div class="statistics">
+                    <h2>Statistics</h2>
+                        <h3 id="clickCount">Total Clicks: 0</h3>
+                        <h3 id="upgradeCount">Number of Upgrades: 0</h3>
+                        <h3 id="secondsCount">Game Duration (seconds): 0</h3>
+
+                    <h2>Log Section</h2>
+                </div>
+
+                <div class="listBox" id="logText">
+                    <ul id="LogUL"></ul>
+                </div>
+
+            </section>
+            <div class="dividerT"></div>
+
+            <div class="dividerR1"></div>
+            <div class="dividerR2"></div>
+            <section class="right">
+                <button onclick="purchase(cookieArray[0])" class="buttons" id="button1">Chocolate Chip Cookie $25</button>
+                <button onclick="purchase(cookieArray[1])" class="buttons" id="button2">Pinwheel Cookie $150</button>
+                <button onclick="purchase(cookieArray[2])" class="buttons" id="button3">Choc Cookie $900</button>
+                <button onclick="purchase(cookieArray[3])" class="buttons" id="button4">M&M Cookie $1800</button>
+                <button onclick="purchase(cookieArray[4])" class="buttons" id="button5">Shortbread Cookie $3600</button>
+                <button onclick="purchase(cookieArray[5])" class="buttons" id="button6">Macaron Cookie $7200</button>
+                <button onclick="purchase(cookieArray[6])" class="buttons" id="button7">Biscotti Cookie $14400</button>
+                <button onclick="purchase(cookieArray[7])" class="buttons" id="button8">Sugar Cookie $28800</button>
+                <button onclick="purchase(cookieArray[8])" class="buttons" id="button9">Oatmeal Raisin Cookie $57600</button>
+                <button onclick="purchase(cookieArray[9])" class="buttons" id="button10">Gingerbread Cookie $115200</button>
+            </section>
+        </main>
+    </body>
+</html>
